@@ -1,5 +1,7 @@
 # My CachyOS+Hyprland DotFiles
 
+!!! This Is UNDER CONSTRUCTION !!!!
+
 This Directory Contains my dotfiles and Wallpapers
 
 This Guide is Created Assuming You installed CahcyOS with NODesktop and Limine
@@ -15,7 +17,7 @@ paru -Syu hyprland waybar stow git kitty nvim firefox
 ### Some more Packages
 
 ```
-paru -S hyprpaper dunst okular thunar ttf-jetbrain-mono-nerd brightnessctl fd fzf eza yt-dlp hypridle hyprpolkitagent tldr network-manager-applet ly tty-clock kew cava vlc zoxide cachyos-hyprland-settings cliphist udiskie polkit-kde-agent qt5-wayland qt6-wayland nwg-look obsidian tumbler 
+paru -S hyprpaper dunst okular thunar ttf-jetbrain-mono-nerd brightnessctl fd fzf eza yt-dlp hypridle hyprpolkitagent tldr network-manager-applet ly tty-clock kew cava vlc zoxide cachyos-hyprland-settings cliphist udiskie polkit-kde-agent qt5-wayland qt6-wayland nwg-look obsidian tumbler dunst 
 ```
 
 ## Run Stow
