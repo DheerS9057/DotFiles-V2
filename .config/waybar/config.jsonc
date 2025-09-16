@@ -23,7 +23,9 @@
     "backlight",
     "battery",
     "power-profiles-daemon",
+    "network",
     "tray",
+
   ],
 
   // --------------------------------------------------
@@ -179,6 +181,17 @@
       "power-saver": "  "
     }
   },
-
-
+ 
+   "network": {
+      
+      "format-wifi": "󰤨",
+      "on-click":"kitty impala", 
+      "format-ethernet": "",
+      "format-disconnected": "󰤮", //An empty format will hide the module.
+      "tooltip-format": "{ifname} via {gwaddr} 󰊗",
+      "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
+      "tooltip-format-ethernet": "{ifname} ",
+      "tooltip-format-disconnected": "Disconnected",
+      "max-length": 50
+  } 
 }
