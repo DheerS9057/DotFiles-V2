@@ -1,4 +1,3 @@
-// r4ppz
 
 {
   // General Waybar configuration
@@ -25,8 +24,6 @@
     "battery",
     "power-profiles-daemon",
     "tray",
-   "custom/power-button",
-    "custom/rofi"
   ],
 
   // --------------------------------------------------
@@ -52,17 +49,11 @@
       "8": "8",
       "9": "9",
       "10": "10",
-      "11": "󰑴",
-      "12": "",
-      "13": "",
-      "14": "",
       "special": "0"
     },
     "persistent-workspaces": {
       "*": 3
     }
-    // "on-scroll-up": "hyprctl dispatch workspace e+1",
-    // "on-scroll-down": "hyprctl dispatch workspace e-1"
   },
 
   // Hyprland window
@@ -189,13 +180,5 @@
     }
   },
 
-  // Custom Rofi launcher module
-  "custom/rofi": {
-    "format": " ",
-    "on-click": "~/.config/rofi/launcher/launcher.sh",
-    "on-click-right": "~/.config/rofi/powermenu/powermenu.sh",
-    "escape": true,
-    "tooltip": false
-  },
 
 }

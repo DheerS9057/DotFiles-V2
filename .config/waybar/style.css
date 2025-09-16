@@ -29,18 +29,13 @@ window#waybar.hidden {
 #window,
 #tray,
 #backlight,
-#custom-memory,
 #pulseaudio,
 #pulseaudio.muted,
 #battery,
 #battery.critical,
 #battery.warning,
 #clock,
-#custom-web-links,
 #power-profiles-daemon,
-#custom-power-button,
-#custom-rofi,
-#memory,
 #submap {
   font-family: JetBrainsMono Nerd Font;
   font-size: 15px;
@@ -53,19 +48,17 @@ window#waybar.hidden {
 
 #window,
 #tray,
-#disk,
 #backlight,
-#custom-memory,
 #pulseaudio,
 #pulseaudio.muted,
 #battery,
 #battery.critical,
 #battery.warning,
 #memory {
-  margin-right: 5px;
-  margin-left: 5px;
-}
+  margin-right : 5px;
+  margin-left  : 5px;
 
+}
 /* ================================= */
 
 tooltip {
@@ -236,18 +229,6 @@ window#waybar.empty #window {
 #custom-power-button {
   color: #cc241d;
   margin-left: 2px;
-}
-
-/* ================================= */
-
-#custom-rofi {
-  background: #cc241d;
-  border-radius: 0.7px;
-  min-width: 22px;
-  margin-left: 4px;
-  margin-right: 4px;
-  margin-bottom: 3px;
-  margin-top: 3px;
 }
 
 /* ================================= */
