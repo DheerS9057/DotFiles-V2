@@ -17,7 +17,7 @@ paru -Syu hyprland waybar stow git kitty nvim firefox
 ### Some more Packages
 
 ```
-paru -S hyprpaper dunst okular thunar ttf-jetbrain-mono-nerd brightnessctl fd fzf eza yt-dlp hypridle hyprpolkitagent tldr network-manager-applet ly tty-clock kew cava vlc zoxide cachyos-hyprland-settings cliphist udiskie polkit-kde-agent qt5-wayland qt6-wayland nwg-look obsidian tumbler dunst 
+paru -Syu hyprpaper dunst okular thunar ttf-jetbrain-mono-nerd brightnessctl fd fzf eza yt-dlp hypridle hyprpolkitagent tldr impala ly tty-clock kew cava vlc zoxide  cliphist udisks2 udisks2-btrfs udiskie polkit-kde-agent qt5-wayland qt6-wayland nwg-look obsidian tumbler dunst gvfs gvfs-mtp pamixer pavucontrol playerctl ffmpegthumbnailer hyprlock hyprland hyprshot neovim thunar-volman   
 ```
 
 ## Run Stow
