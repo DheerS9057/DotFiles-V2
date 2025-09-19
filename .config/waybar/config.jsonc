@@ -185,7 +185,7 @@
    "network": {
       
       "format-wifi": "󰤨",
-      "on-click":"kitty impala", 
+      "on-click":"kitty nmtui", 
       "format-ethernet": "",
       "format-disconnected": "󰤮", //An empty format will hide the module.
       "tooltip-format": "{ifname} via {gwaddr} 󰊗",
