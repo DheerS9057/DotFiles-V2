@@ -39,7 +39,7 @@ window#waybar.hidden {
 #network
 #bluetooth
 #submap {
-  font-family: JetBrainsMono Nerd Font;
+  font-family: JetBrainsMono Nerd ;
   font-size: 15px;
   font-weight: 800;
   color: #282828;
@@ -238,8 +238,9 @@ window#waybar.empty #window {
  }
 
 #bluetooth{
-  color: #cc241d;
-  font-size: 18px;
+  color: #98971a;
+  font-size: 17px;
+  
   margin-left: 0px;
   margin-right: 10px;
   padding-left: 4px;

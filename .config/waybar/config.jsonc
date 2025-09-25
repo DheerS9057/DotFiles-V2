@@ -184,16 +184,17 @@
       "on-click":"kitty nmtui", 
       "format-ethernet": "",
       "format-disconnected": "󰤮", //An empty format will hide the module.
-      "tooltip-format": "{ifname} via {gwaddr} 󰊗",
-      "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
-      "tooltip-format-ethernet": "{ifname} ",
-      "tooltip-format-disconnected": "Disconnected",
+     // "tooltip-format": "{ifname} via {gwaddr} 󰊗",
+      //"tooltip-format-wifi": "{essid} ({signalStrength}%) ",
+      //"tooltip-format-ethernet": "{ifname} ",
+      //"tooltip-format-disconnected": "Disconnected",
       "max-length": 50
   }, 
   "bluetooth": {
 
       "format": "",
-	    "format-disabled": "󰂲", // an empty format will hide the module
+	    "format-disabled": " - ",
+
 	    "format-connected": "󰂱",
 	    "on-click": "rofi-bluetooth"
   }
