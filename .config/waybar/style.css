@@ -1,3 +1,4 @@
+
 * {
   padding: 0;
   margin: 0;
@@ -240,7 +241,7 @@ window#waybar.empty #window {
 #bluetooth{
   color: #98971a;
   font-size: 17px;
-  
+  /*font-family: Bold ;*/
   margin-left: 0px;
   margin-right: 10px;
   padding-left: 4px;

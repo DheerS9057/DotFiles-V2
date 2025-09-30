@@ -63,7 +63,7 @@
   "icon": false,
   "icon-size": 9,
   "separate-outputs": true,
-  "tooltip": false
+  "tooltip": false,
   },
 
   // Hyprland Submap
@@ -93,7 +93,6 @@
     ],
     "on-scroll-up": "brightnessctl set +1%",
     "on-scroll-down": "brightnessctl set 1%-",
-    "on-click": "$HOME/Arch-dotfiles/scripts/toggle-hyprsunset.sh",
     "smooth-scrolling-threshold": 1,
     "tooltip": false,
     "tooltip-format": "Brightness: {percent}%"
@@ -184,17 +183,14 @@
       "on-click":"kitty nmtui", 
       "format-ethernet": "",
       "format-disconnected": "󰤮", //An empty format will hide the module.
-     // "tooltip-format": "{ifname} via {gwaddr} 󰊗",
-      //"tooltip-format-wifi": "{essid} ({signalStrength}%) ",
-      //"tooltip-format-ethernet": "{ifname} ",
-      //"tooltip-format-disconnected": "Disconnected",
+      "tooltip":false,
       "max-length": 50
   }, 
   "bluetooth": {
 
       "format": "",
 	    "format-disabled": " - ",
-
+      "tooltip":false ,
 	    "format-connected": "󰂱",
 	    "on-click": "rofi-bluetooth"
   }

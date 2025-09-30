@@ -71,4 +71,23 @@ sudo udevadm control --reload
 sudo udevadm trigger
 
 ```
-The remaining Setup for Hyprland is already done in the hyprland.conf 
+The remaining Setup for Hyprland is already done in the hyprland.conf
+
+# Secure Boot Setup
+
+Install SBCTL 
+
+```sudo pacman -S sbctl ```
+```
+```
+
+Enable Setup Mode in Firmware by Clearing all old Keys stored
+
+````
+
+```sudo limine-enroll-config`
+
+```
+
+
+
